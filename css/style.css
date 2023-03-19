@@ -1,0 +1,298 @@
+body {
+    background-color: black;
+}
+
+.title {
+    /* color: white; */
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(to right, black, black, white, white, white, black, black);
+}
+
+.container {
+    color: white;
+    display: flex;
+}
+
+.hard-code {
+    /* background-color: rgb(52, 240, 14); */
+    width: 51%;
+    text-align: center;
+    background-image: linear-gradient(to right, black, black, black, black);
+
+
+}
+
+.grid {
+    /* background-color: aqua; */
+    width: 50%;
+    /* margin-left: 20px; */
+}
+
+.first {
+    padding: 20px;
+}
+
+.name {
+    padding: 40px;
+}
+
+.second {
+    padding: 20px;
+}
+
+
+span {
+    color: rgb(80, 80, 241);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+hr {
+    background-color: #000;
+    ;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin-left: -10px;
+
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.938);
+    border: 1px solid rgb(150, 146, 146);
+}
+
+.mole {
+    background-color: black;
+
+}
+
+.left {
+    color: lightgreen;
+    font-size: 40px;
+}
+
+#secs {
+    font-size: 50px;
+}
+
+#score {
+    font-size: 50px;
+}
+
+/* 
+// Media queries */
+
+@media screen and (max-width: 425px) and (min-width: 0px) {
+
+    .container{
+        margin-top: 100px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+
+    .hard-code {
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(to right, black, black, black, black);
+    }
+
+    .first {
+        padding: 5px;
+    }
+
+    .name {
+        padding: 5px;
+    }
+
+    .second {
+        padding: 5px;
+    }
+
+    span {
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .left {
+        color: lightgreen;
+        font-size: 20px;
+    }
+
+    #secs {
+        font-size: 20px;
+    }
+
+    #score {
+        font-size: 20px;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 650px;
+        margin-left: -10px;
+
+    }
+
+    .square {
+        height: 80px;
+        width: 80px;
+        background-color: rgba(255, 255, 255, 0.938);
+        border: 1px solid rgb(150, 146, 146);
+    }
+
+
+    .mole {
+        background-color: black;
+    
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .container{
+        margin-top: 100px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+
+    .hard-code {
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(to right, black, black, black, black);
+    }
+
+    .first {
+        padding: 10px;
+    }
+
+    .name {
+        padding: 10px;
+    }
+
+    .second {
+        padding: 10px;
+    }
+
+    span {
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .left {
+        color: lightgreen;
+        font-size: 20px;
+    }
+
+    #secs {
+        font-size: 20px;
+    }
+
+    #score {
+        font-size: 20px;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 650px;
+        margin-left: -10px;
+
+    }
+
+    .square {
+        height: 110px;
+        width: 110px;
+        background-color: rgba(255, 255, 255, 0.938);
+        border: 1px solid rgb(150, 146, 146);
+    }
+
+
+    .mole {
+        background-color: black;
+    
+    }
+  }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .container{
+        margin-top: 100px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+
+    .hard-code {
+        width: 100%;
+        text-align: center;
+        background-image: linear-gradient(to right, black, black, black, black);
+    }
+
+    .first {
+        padding: 10px;
+    }
+
+    .name {
+        padding: 10px;
+    }
+
+    .second {
+        padding: 10px;
+    }
+
+    span {
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .left {
+        color: lightgreen;
+        font-size: 20px;
+    }
+
+    #secs {
+        font-size: 20px;
+    }
+
+    #score {
+        font-size: 20px;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 650px;
+        margin-left: -10px;
+
+    }
+
+    .square {
+        height: 130px;
+        width: 130px;
+        background-color: rgba(255, 255, 255, 0.938);
+        border: 1px solid rgb(150, 146, 146);
+    }
+
+
+    .mole {
+        background-color: black;
+    
+    }
+  }
+/* @media screen and (max-width: 900px) and (min-width: 600px) {
+     
+  }
+@media screen and (max-width: 900px) and (min-width: 600px) {
+     
+  } */
