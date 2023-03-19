@@ -136,6 +136,7 @@ span {
         width: 100%;
         text-align: center;
         background-image: linear-gradient(to right, black, black, black, black);
+        margin-bottom: 20px;
     }
 
     .first {
@@ -156,7 +157,7 @@ span {
     }
     .left {
         color: lightgreen;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #secs {
@@ -168,6 +169,7 @@ span {
     }
 
     .grid {
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
         width: 450px;
