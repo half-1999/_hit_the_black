@@ -52,7 +52,7 @@ start.addEventListener('click' , () => {
                 clearInterval(time)
                 clearInterval(timerId)
                 res.textContent = (`Game Over !!!  Your Result is ` + result)
-                res.style.color = "white"
+                res.style.color = "blue"
                 alert('Game Over !!! Your Final Score is ' + result)
         
             }

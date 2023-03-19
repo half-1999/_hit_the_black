@@ -16,29 +16,29 @@ body {
 
 .hard-code {
     /* background-color: rgb(52, 240, 14); */
-    width: 51%;
-    text-align: center;
-    background-image: linear-gradient(to right, black, black, black, black);
-
-
-}
-
-.grid {
-    /* background-color: aqua; */
     width: 50%;
-    /* margin-left: 20px; */
+    text-align: center;
+    /* background-image: linear-gradient(to right, black, black, black, black); */
+    background-image: linear-gradient(to right, black, black, white, white, white, black, black);
+
+
 }
+
+
 
 .first {
-    padding: 20px;
+    /* padding: 20px; */
+    background-image: linear-gradient(to right, black, black, white, white, black, black);
 }
 
 .name {
-    padding: 40px;
+    /* padding: 40px; */
+    background-image: linear-gradient(to right, black, black, white, white, black, black);
 }
 
 .second {
-    padding: 20px;
+    /* padding: 20px; */
+    background-image: linear-gradient(to right, black, black, white, white, black, black);
 }
 
 
@@ -48,17 +48,14 @@ span {
     font-size: 40px;
 }
 
-hr {
-    background-color: #000;
-    ;
-}
-
 .grid {
+    /* background-color: aqua; */
+    width: 50%;
+    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 650px;
+    width: 750px;
     margin-left: -10px;
-
 }
 
 .square {
@@ -73,39 +70,53 @@ hr {
 
 }
 
-.left {
-    color: lightgreen;
-    font-size: 40px;
+.first .left {
+    color: black;
+    font-size: 35px;
+}
+.second .left {
+    color: black;
+    font-size: 35px;
 }
 
 #secs {
-    font-size: 50px;
+    color: blue;
+    font-size: 70px;
 }
 
 #score {
-    font-size: 50px;
+    color: blue;
+    font-size: 70px;
+}
+#res{
+    color: black;
 }
 
 .buttons{
     color: white;
     cursor: pointer;
-    /* background-color: #fff; */
+    background-color: #0a0a0a6e;
     font-size: 30px;
-    padding: 10px;
-    margin: 10px;
     display: flex;
+    margin: 20px;
     text-align: center;
 }
 .start{
     width: 50%;
     padding: 10px;
-    margin: 10px;
     border-right: 1px solid white;
+}
+.start:hover{
+    
+    background-color: #1414146e;
 }
 .stop{
     width: 50%;
     padding: 10px;
-    margin: 10px;
+}
+.stop:hover{
+    
+    background-color: #1414146e;
 }
 /* 
 // Media queries */
@@ -243,6 +254,7 @@ hr {
     
     }
   }
+
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     
     .title {
@@ -306,3 +318,4 @@ hr {
     
     }
   }
+  
