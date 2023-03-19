@@ -9,7 +9,7 @@ let start = document.querySelector('.start')
 
 
 let result = 0
-let currentTime = 10
+let currentTime = 15
 let hitPos
 var time
 
